@@ -5,7 +5,7 @@ G.set_transparent_scheme =  function()
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
 
-	vim.o.background = "light"
+	vim.o.background = "dark"
 	vim.g.colors_name = "transparent"
 	local set = vim.api.nvim_set_hl
 
