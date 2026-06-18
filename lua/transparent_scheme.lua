@@ -16,10 +16,16 @@ G.set_transparent_scheme =  function()
 	set(0, "Cursor", { bg = colors.bg, fg = colors.visual })
 
 	set(0, "NormalFloat", { bg = colors.bg })
-	set(0, "FloatBorder", { bg = colors.constants, fg = colors.fg })
+	set(0, "FloatBorder", { bg = colors.bg, fg = colors.constants })
+
+	set(0, "Pmenu", { bg = colors.bg, fg = colors.constants })
 
 	set(0, "StatusLine", { bg = colors.bg, fg = colors.primary_txt })
 	set(0, "StatusLineNC", { bg = colors.bg, fg = colors.primary_txt })
+
+	set(0, "TabLine", { bg = colors.bg, fg = colors.primary_txt })
+	set(0, "TabLineFill", { bg = colors.bg, fg = colors.primary_txt })
+	set(0, "TabLineSel", { bg = colors.search, fg = colors.special })
 
 	set(0, "CursorLine", { bg = colors.bg })
 	set(0, "Visual", { bg = colors.bg, fg = colors.visual })
