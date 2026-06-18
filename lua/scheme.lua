@@ -2,7 +2,6 @@ local colors = require("palette")
 local G = {}
 
 G.colorscheme =  function()
-	print("lol")
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
 
