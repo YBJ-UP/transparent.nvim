@@ -23,12 +23,12 @@ G.set_transparent_scheme =  function()
 	set(0, "StatusLine", { bg = colors.bg, fg = colors.primary_text })
 	set(0, "StatusLineNC", { bg = colors.bg, fg = colors.primary_text })
 
-	set(0, "TabLine", { bg = "black", fg = colors.bg })
+	set(0, "TabLine", { bg = colors.bg, fg = colors.bg })
 	set(0, "TabLineFill", { bg = colors.bg, fg = colors.bg })
 	set(0, "TabLineSel", { bg = colors.search, fg = colors.special })
 
 	set(0, "CursorLine", { bg = colors.bg })
-	set(0, "Visual", { bg = colors.bg, fg = colors.visual })
+	set(0, "Visual", { bg = "black", fg = colors.visual })
 
 	set(0, "Comment", { fg = colors.comments, italic = true })
 	set(0, "Constant", { fg = colors.constants })
