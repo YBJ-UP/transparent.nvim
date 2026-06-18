@@ -1,1 +1,1 @@
-require("scheme").setup()
+require("scheme").colorscheme()
