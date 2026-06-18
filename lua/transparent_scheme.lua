@@ -1,4 +1,4 @@
-local colors = require("palette")
+local colors = require("transparent_palette")
 local G = {}
 
 G.set_transparent_scheme =  function()
