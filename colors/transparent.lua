@@ -1,1 +1,1 @@
-require("scheme").set_transparent_scheme()
+require("transparent_scheme").set_transparent_scheme()
