@@ -1,1 +1,1 @@
-require("lua.scheme").setup()
+require("scheme").setup()

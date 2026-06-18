@@ -1,4 +1,4 @@
-local colors = require("lua.palette")
+local colors = require("palette")
 local G = {}
 
 G.setup =  function()
