@@ -10,7 +10,7 @@ local palette = {
 	strings = "#0ef3ff",
 	special = "#63DBB5",
 	visual = "#FFB59F",
-	search = "#CFBCFF",
+	search = "#ad9add",
 	substitute = "#5C7FD6",
 	error = "#dd5555"
 }
