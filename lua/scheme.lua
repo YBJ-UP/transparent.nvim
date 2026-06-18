@@ -1,7 +1,7 @@
 local colors = require("palette")
 local G = {}
 
-G.colorscheme =  function()
+G.set_transparent_scheme =  function()
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
 
@@ -43,6 +43,8 @@ G.colorscheme =  function()
 	set(0, "Special", { fg = colors.constants })
 
 	set(0, "PreProc", { fg = colors.special })
+
+	set(0, "Title", { fg = colors.strings, bold = true })
 
 	set(0, "Keyword", { fg = colors.keywords })
 
