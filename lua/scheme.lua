@@ -13,6 +13,13 @@ G.colorscheme =  function()
 	set(0, "NormalNc", { bg = colors.bg, fg = colors.fg_unfocused })
 
 	set(0, "CursorColumn", { bg = colors.bg })
+	set(0, "Cursor", { bg = colors.bg, fg = colors.visual })
+
+	set(0, "NormalFloat", { bg = colors.bg })
+	set(0, "FloatBorder", { bg = colors.constants, fg = colors.fg })
+
+	set(0, "StatusLine", { bg = colors.bg, fg = colors.primary_txt })
+	set(0, "StatusLineNC", { bg = colors.bg, fg = colors.primary_txt })
 
 	set(0, "CursorLine", { bg = colors.bg })
 	set(0, "Visual", { bg = colors.bg, fg = colors.visual })
