@@ -27,7 +27,7 @@ G.set_transparent_scheme =  function()
 	set(0, "TabLineFill", { bg = colors.bg, fg = colors.bg })
 	set(0, "TabLineSel", { bg = colors.search, fg = colors.special })
 
-	set(0, "CursorLine", { bg = colors.bg })
+	set(0, "CursorLine", { bg = colors.bg, fg = colors.cursor_line, underline = true })
 	set(0, "Visual", { bg = colors.bg, fg = colors.visual })
 
 	set(0, "Comment", { fg = colors.comments, italic = true })

@@ -12,6 +12,7 @@ local palette = {
 	visual = "#FFB59F",
 	search = "#ad9add",
 	substitute = "#5C7FD6",
+	cursor_line = "#A9D373",
 	error = "#dd5555"
 }
 
