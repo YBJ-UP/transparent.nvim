@@ -29,10 +29,11 @@ local palettes = {
 		strings = "#FD3562",
 		special = "#DB203C",
 		visual = "#80D5D3",
-		search = "#FF9C39",
+		search = "#FFFF79",
 		substitute = "#5C7FD6",
 		cursor_line = "#A9D373",
 		error = "#dd5555"
 	}
 }
+
 return palettes
