@@ -1,7 +1,6 @@
-local colors = require("transparent_palette")
 local G = {}
 
-G.set_transparent_scheme =  function()
+G.set_transparent_scheme = function(colors)
 	vim.cmd("highlight clear")
 	vim.cmd("syntax reset")
 
@@ -44,7 +43,7 @@ G.set_transparent_scheme =  function()
 	set(0, "Substitute", { bg = colors.bg, fg = colors.substitute })
 	set(0, "IncSearch", { bg = colors.bg, fg = colors.search })
 	set(0, "CurSearch", { bg = colors.bg, fg = colors.search })
-	set(0, "Search", { bg = colors.bg , fg = colors.search })
+	set(0, "Search", { bg = colors.bg, fg = colors.search })
 
 	set(0, "Special", { fg = colors.constants })
 
