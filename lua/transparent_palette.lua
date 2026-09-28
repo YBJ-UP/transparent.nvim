@@ -1,5 +1,5 @@
 local palettes = {
-	blueish = {
+	blueish_dark = {
 		bg = "none",
 		fg = "#dddddd",
 		fg_unfocused = "#aaaaaa",
@@ -17,7 +17,7 @@ local palettes = {
 		error = "#dd5555"
 	},
 
-	reddish = {
+	reddish_dark = {
 		bg = "none",
 		fg = "#FF7777",
 		fg_unfocused = "#CC3333",
