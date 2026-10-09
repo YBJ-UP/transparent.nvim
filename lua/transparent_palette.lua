@@ -33,6 +33,24 @@ local palettes = {
 		substitute = "#5C7FD6",
 		cursor_line = "#A9D373",
 		error = "#dd5555"
+	},
+
+	greenish_light = {
+		bg = "none",
+		fg = "#1A6C31",
+		fg_unfocused = "#095B20",
+		primary_text = "#000000",
+		functions = "#31823F",
+		keywords = "#4D9F5F",
+		comments = "#444444",
+		constants = "#004400",
+		strings = "#599313",
+		special = "#34673A",
+		visual = "#80D5D3",
+		search = "#FFFF79",
+		substitute = "#5C7FD6",
+		cursor_line = "#A9D373",
+		error = "#dd5555"
 	}
 }
 
