@@ -46,11 +46,11 @@ local palettes = {
 		constants = "#004400",
 		strings = "#599313",
 		special = "#34673A",
-		visual = "#80D5D3",
-		search = "#FFFF79",
+		visual = "#209593",
+		search = "#5757A7",
 		substitute = "#5C7FD6",
 		cursor_line = "#A9D373",
-		error = "#dd5555"
+		error = "#aa3333"
 	}
 }
 
