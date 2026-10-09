@@ -45,7 +45,7 @@ G.set_transparent_scheme = function(colors, bg)
 	set(0, "Substitute", { bg = colors.bg, fg = colors.substitute })
 	set(0, "IncSearch", { bg = colors.bg, fg = colors.search })
 	set(0, "CurSearch", { bg = colors.bg, fg = colors.search })
-	set(0, "Search", { bg = colors.bg, fg = colors.search })
+	set(0, "Search", { bg = colors.bg, fg = colors.search, bold = true })
 
 	set(0, "Special", { fg = colors.constants })
 
